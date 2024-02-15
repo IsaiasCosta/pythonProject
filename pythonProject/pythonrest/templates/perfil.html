@@ -1,0 +1,10 @@
+{% extends "homepage.html"%} <!-- extendento o html para outras paginas html   -->
+
+{%block title%}
+   Usuario Pythonrest {{usuario}}
+{%endblock%}
+
+{%block body%}
+   <h1>Perfil do usuario ativo {{usuario}}</h1>
+   <a href="{{url_for('homepage')}}"> voltar</a>
+ {%endblock%}
